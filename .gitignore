@@ -1,0 +1,14 @@
+# Never store originals, private case content, secrets or temporary work
+private/
+_private/
+vault/
+raw/
+originals/
+*.key
+*.pem
+*.p12
+*.pfx
+*.env
+.env*
+.DS_Store
+Thumbs.db
